@@ -1,14 +1,14 @@
 [package]
 name = "dicetest-derive"
 version = "0.1.0"
-license = "MIT OR Apache-2.0"
-readme = "README.md"
-description = "Derive macro for dicetest"
-keywords = ["dicetest"]
-categories = ["development-tools::testing"]
-repository = "https://github.com/jakoschiko/dicetest-derive"
 edition = "2024"
 rust-version = "1.87.0"
+description = "Derive macro for dicetest"
+readme = "README.md"
+repository = "https://github.com/jakoschiko/dicetest-derive"
+license = "MIT OR Apache-2.0"
+keywords = ["dicetest"]
+categories = ["development-tools::testing"]
 
 [lib]
 proc-macro = true
