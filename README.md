@@ -1,4 +1,3 @@
-[<img alt="github" src="https://img.shields.io/badge/jakoschiko/dicetest-derive-8da0cb?logo=github" height="20">](https://github.com/jakoschiko/dicetest-derive)
 [![crates.io](https://img.shields.io/crates/v/dicetest-derive.svg)](https://crates.io/crates/dicetest-derive)
 [![Documentation](https://docs.rs/dicetest-derive/badge.svg)](https://docs.rs/dicetest-derive)
 [![Build & Test](https://github.com/jakoschiko/dicetest-derive/actions/workflows/main.yml/badge.svg)](https://github.com/jakoschiko/dicetest-derive/actions/workflows/main.yml)
