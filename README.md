@@ -1,7 +1,7 @@
 [![crates.io](https://img.shields.io/crates/v/dicetest-derive.svg)](https://crates.io/crates/dicetest-derive)
 [![Documentation](https://docs.rs/dicetest-derive/badge.svg)](https://docs.rs/dicetest-derive)
 [![Build & Test](https://github.com/jakoschiko/dicetest-derive/actions/workflows/main.yml/badge.svg)](https://github.com/jakoschiko/dicetest-derive/actions/workflows/main.yml)
-[![License](https://img.shields.io/badge/license-MIT%2FApache-blue.svg)](https://github.com/jakoschiko/dicetest-derive#License)
+[![License](https://img.shields.io/badge/license-MIT%2FApache-blue.svg)](https://github.com/jakoschiko/dicetest-derive?tab=readme-ov-file#license)
 
 # dicetest-derive
 
