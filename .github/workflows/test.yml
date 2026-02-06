@@ -1,0 +1,28 @@
+name: test
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: 1.87.0 # MSRV
+          components: clippy, rustfmt
+      - name: Check fmt
+        run: cargo fmt --check
+      - name: Check clippy
+        run: cargo clippy
+      - name: Build
+        run: cargo build
